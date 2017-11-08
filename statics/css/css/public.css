@@ -1,0 +1,184 @@
+
+
+
+*{margin: 0;padding: 0;box-sizing: border-box}
+ul{list-style: none}
+a{text-decoration: none}
+img{display: block}
+
+.clear{clear: both}
+.clears:after{content: "";display: block;clear: both;}
+.fl{float: left}
+.fr{float: right}
+@font-face {
+    font-family: icon;
+    src: url("../font/iconfont.eot"),url("../font/iconfont.svg"),url("../font/iconfont.ttf"),url("../font/iconfont.woff");
+}
+
+body{background-color: white}
+/*以上是公共样式*/
+
+
+
+
+
+
+
+/*<!--以下是pc端链接-->*/
+@media screen and (min-device-width: 760px) {
+
+    /*版心*/
+    .center{width: 1200px;margin: 0 auto}
+
+    /*导航*/
+    .centers {
+          width: 1300px;
+          margin: 0 auto;
+      }
+    .nav .zhuti ul{padding-top: 90px;}
+    .nav .zhuti ul li{position: relative; float: left; padding: 0 0 10px 72px;; border-bottom: 5px solid transparent;width: 180px}
+    .nav .zhuti ul li a{display: block; color: #F28100; font-size: 16px;;line-height: 21px; text-transform: uppercase; font-weight: 700;margin-left: 5px;}
+    .nav .zhuti ul li a span{display: block; line-height: 21px;}
+    .nav .zhuti ul li.cur{border-bottom: 5px solid #F28100;}
+    .nav .zhuti ul li:before{content: ''; display: block; position: absolute; left: 24px; width: 46px; height: 42px;}
+
+    .nav .zhuti ul li:first-child:before{background: url("../../images/img/index/HOME.png") no-repeat;}
+    .nav .zhuti ul li:nth-child(2):before{background: url("../../images/img/index/GARDEN.png") no-repeat;}
+    .nav .zhuti ul li:nth-child(3):before{background: url("../../images/img/index/EDUCATION.png") no-repeat;}
+    .nav .zhuti ul li:nth-child(3){margin-right: 200px;}
+    .nav .zhuti ul li:nth-child(4){margin-right: 10px;padding: 0 10px 10px 70px;width: 190px;}
+    .nav .zhuti ul li:nth-child(4) a{margin-left: 0;}
+    .nav .zhuti ul li:nth-child(4):before{background: url("../../images/img/index/INOCULATION.png")  no-repeat; left: 16px;}
+    .nav .zhuti ul li:nth-child(5):before{background: url("../../images/img/index/NEWS.png") no-repeat;}
+    .nav .zhuti ul li:last-child:before{background: url("../../images/img/index/PARENT.png") no-repeat;}
+    .nav .logo{z-index: 10; position: absolute; left: 50%; margin-left: -90px; top: 82px; width: 180px; height: 165px; background: #fff; border-radius: 0 0 50% 50%;}
+    .nav .logo img{margin: 0 auto;}
+    .nav .zhuti li:hover{border-bottom: 5px solid #f28100;}
+
+
+    /*以下是页脚   */
+    footer{position: relative;
+        margin-top: -38.4px;
+        width: 100%; padding-top: 85px; height: 403px;  background: url("../../images/img/index/index_footerBanner.png") no-repeat center/100% 100%;}
+    footer .zhuti{
+        height: 210px;
+        border-bottom: 2px solid rgba(255,255,255,.1);
+        padding: 0 5%;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-justify-content: space-between;
+        -moz-justify-content: space-between;
+        -ms-justify-content: space-between;
+        -o-justify-content: space-between;
+        justify-content: space-between;
+    }
+    footer .zhuti .footerlogo{width: 148px;height: 134px}
+    footer .zhuti .lxwm{width: 220px}
+    footer .zhuti .gywm{width: 220px}
+    footer .zhuti a{display: block;  width: 100%;  color: #e83428;  font-size: 24px;  line-height: 33px;  border-bottom: 2px solid #e83428;}
+    footer .zhuti p{  margin-top: 24px;  width: 100%;  font-size: 14px;  color: white;  line-height: 24px;  }
+    footer .gywm .p2 span{ font-family: icon;}
+    footer .gywm .p2{ margin-top: 14px;}
+    footer .erweima{width: 126px;height: 126px;margin-top: 20px;}
+
+    footer .bottom {  margin-top: 17px;  text-align: center;  font-size: 14px;  color: #fefefe;  font-weight: 600;line-height: 18px;
+    }
+}
+
+
+
+/*<!--以下是app端链接-->*/
+@media screen and (max-device-width:759px) {
+
+    /*版心*/
+
+    /*抬头*/
+    .nav .toptu{
+        display: none;
+    }
+    .nav{
+        padding-top: 1rem;
+        height: 5rem;
+        position: relative;
+        width: 100%;
+        background: url("../../images/img/index/bj.jpg") repeat-x top/28px ;
+    }
+
+
+    /*导航*/
+    .nav .zhuti ul{
+        display: none;
+    }
+
+    /*logo*/
+    .headertitle{
+        width: 100%;
+        height: 4rem;
+    }
+    .headertitle .logo1{
+        float: left;
+        margin-left: 1rem;
+        width: 3.5rem;
+        height: 3.5rem;
+        background: url(../../images/img/index/LOGO_r1_c2.png) no-repeat center/cover;
+    }
+    .headertitle .logo2{
+        float: left;
+        width: 15rem;
+        height: 3.5rem;
+        background: url(../../images/img/index/LOGO_r3_c1.png) no-repeat center/contain;
+    }
+    .nav .logo img{display: none}
+
+    .headertitle .applogo1{
+        width: 3.5rem;
+        height: 3.5rem;
+
+    }
+
+
+
+    /*以下是页脚   */
+    footer{position: relative;
+        margin-top: -0.8rem;
+        width: 100%; padding-top: 3.2rem; height: 10rem;  background: url("../../images/img/index/index_footerBanner.png") no-repeat center/cover;}
+    footer .zhuti{
+        display: none;
+
+    }
+    footer .zhuti .footerlogo{width: 9.25rem;height: 8.3rem}
+    footer .zhuti .lxwm{width: 13.75rem}
+    footer .zhuti .gywm{width: 13.75rem}
+    footer .zhuti a{display: block;  width: 100%;  color: #e83428;  font-size: 1.5rem;  line-height: 2.06rem;  border-bottom: 2px solid #e83428;}
+    footer .zhuti p{  margin-top: 1.5rem;  width: 100%;  font-size: 0.53rem;  color: white;  line-height: 1.5rem;  }
+    footer .gywm .p2 span{ font-family: icon;}
+    footer .gywm .p2{ margin-top: 0.53rem;}
+    footer .erweima{width: 7.87rem;height: 7.87rem;margin-top: 1.25rem;}
+
+    footer .bottom {  margin-top: 0.06rem;  text-align: center;  font-size: 0.875rem;  color: #fefefe;  font-weight: 600;line-height: 2.125rem;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1026 @@
+
+/*<!--以下是pc端样式-->*/
+@media screen and (min-device-width: 760px) {
+ .banner {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+ }
+
+ .banner ul {
+  list-style: none;
+  width: 500%;
+  position: absolute;
+ }
+
+ .banner ul li {
+  width: 20%;
+  float: left;
+ }
+
+ .banner ul li img {
+  width: 100%;
+  display: block;
+ }
+
+ .banner .pagNav {
+  position: absolute;
+  z-index: 1;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -85px;
+ }
+
+ .banner .pagNav a {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  margin: 0 10px;
+  border-radius: 50%
+ }
+
+ .banner .pagNav a:hover {
+  background-color: greenyellow
+ }
+
+ .banner .pagNav a.cur {
+  background-color: #4dad10
+ }
+
+ .banner .left, .banner .right {
+  position: absolute;
+  z-index: 2;
+  font-family: icon;
+  font-size: 50px;
+  top: 50%;
+  margin-top: -25px;
+  color: #ffffff;
+  cursor: pointer;
+  opacity: 0;
+  transition: .5s;
+ }
+
+ .banner .left {
+  left: 20px
+ }
+
+ .banner .right {
+  right: 20px
+ }
+
+ .banner:hover .left, .banner:hover .right {
+  opacity: 1;
+ }
+
+ /*以上是banner*/
+ /*以下是主体*/
+ /*以下是家园环境*/
+ .jyhj {
+  padding-top: 56px;
+ }
+
+ .jyhj .txt {
+  margin: 0 auto 68px;
+  width: 294px;
+  height: 90px;
+  text-align: center;
+  border: 1px solid #f28100;
+ }
+
+ .jyhj .txt h4 {
+  position: relative;
+  top: -20px;
+  font-family: "icon";
+  font-size: 35px;
+  color: #f28100;
+ }
+
+ .jyhj .txt h3 {
+  position: relative;
+  top: -20px;
+  font-size: 31px;
+  color: #f28100;
+  font-weight: 500;
+ }
+
+ .jyhj .txt h5 {
+  margin: 0 auto;
+  position: relative;
+  bottom: 4px;
+  font-size: 17px;
+  color: #dbdbdb;
+  text-transform: uppercase;
+  background: white;
+  width: 192px;
+  height: 22px;
+ }
+
+ .jyhj .zhuti {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  -o-justify-content: space-between;
+  justify-content: space-between;
+ }
+
+ .jyhj .zhuti li {
+  position: relative;
+  width: 380px;
+  height: 240px;
+  overflow: hidden;
+  margin-bottom: 47px;
+ }
+
+ .jyhj .zhuti li img {
+  width: 100%;
+  height: 100%;
+ }
+
+ .jyhj .zhuti li img:hover {
+  transform: scale(1.2);
+  transition: all .5s;
+ }
+
+ .jyhj .zhuti li a {
+  position: absolute;
+  padding-left: 32px;
+  display: block;
+  width: 100%;
+  height: 32px;
+  font-size: 16px;
+  color: #3c3c3c;
+  line-height: 32px;
+  background: rgba(255, 255, 255, .6);
+ }
+
+ .jyhj .zhuti li:hover a {
+  bottom: 0;
+ }
+
+ /*以下是特色课程*/
+ .tskc {
+  padding-top: 76px;
+  width: 100%;
+  height: 820px;
+  background: url("../../images/img/index/index_banner2.png") no-repeat center/100% 100%;
+ }
+
+ .tskc .txt {
+  margin: 0 auto 60px;
+  width: 294px;
+  height: 90px;
+  text-align: center;
+  border: 1px solid #fff;
+ }
+
+ .tskc .txt h4 {
+  position: relative;
+  top: -20px;
+  font-family: "icon";
+  font-size: 35px;
+  color: #fff;
+ }
+
+ .tskc .txt h3 {
+  position: relative;
+  top: -20px;
+  font-size: 31px;
+  color: #fff;
+  font-weight: 500;
+ }
+
+ .tskc .txt h5 {
+  margin: 0 auto;
+  position: relative;
+  bottom: 4px;
+  font-size: 17px;
+  color: #fff;
+  text-transform: uppercase;
+  width: 192px;
+  height: 22px;
+  background: #ff8f10;
+ }
+
+ .tskc .jieshao {
+  text-align: center;
+  color: #3d3d3d;
+  font-size: 16px;
+ }
+
+ .tskc ul {
+  margin-top: 48px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  -o-justify-content: space-between;
+  justify-content: space-between;
+ }
+
+ .tskc ul li {
+  position: relative;
+  width: 256px;
+  height: 362px;
+ }
+
+ .tskc ul li .tu {
+  width: 100%;
+ }
+
+ .tskc ul li .zhuti {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  width: 100%;
+  height: 401px;
+  overflow: hidden;
+ }
+
+ .tskc ul li .zhuti .donghua {
+  padding-top: 16%;
+  position: relative;
+  top: 300px;
+  width: 100%;
+  height: 361px;
+ }
+
+ .tskc ul li .zhuti .donghua1 {
+  background: rgba(0, 0, 0, .7);
+ }
+
+ .tskc ul li .zhuti .donghua2 {
+  background: rgba(96, 114, 232, .9);
+ }
+
+ .tskc ul li .zhuti .donghua3 {
+  background: rgba(240, 101, 25, .9);
+ }
+
+ .tskc ul li .zhuti .donghua4 {
+  background: rgba(246, 96, 117, .9);
+ }
+
+ .tskc ul li .zhuti .donghua1 .icon {
+  background: rgba(0, 0, 0, .7);
+ }
+
+ .tskc ul li .zhuti .donghua2 .icon {
+  background: rgba(96, 114, 232, .7);
+ }
+
+ .tskc ul li .zhuti .donghua3 .icon {
+  background: rgba(240, 101, 25, .7);
+ }
+
+ .tskc ul li .zhuti .donghua4 .icon {
+  background: rgba(246, 96, 117, .7);
+ }
+
+ .tskc ul li .zhuti .donghua .icon {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  margin-left: -40px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+ }
+
+ .tskc ul li .zhuti .donghua a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+ }
+
+ .tskc ul li .zhuti .donghua a span {
+  font-size: 13px;
+ }
+
+ .tskc ul li .zhuti .donghua p {
+  margin: 24px auto 0;
+  width: 210px;
+  line-height: 24px;
+  font-size: 14px;
+  color: white;
+ }
+
+ .tskc ul li .zhuti:hover .donghua {
+  top: 40px;
+  transition: all .5s;
+ }
+
+ .tskc .ljgd {
+  display: block;
+  margin: 64px auto 0;
+  width: 178px;
+  height: 48px;
+  background: white;
+  font-size: 18px;
+  text-align: center;
+  line-height: 48px;
+  border-radius: 10px;
+  color: #ee7e00;
+  box-shadow: 0 1px 5px 2px rgba(0, 0, 0, .27);
+ }
+
+ .tskcbanner {
+  width: 100%;
+  font-size: 38px;
+  line-height: 394px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  background: url("../../images/img/index/yidongbeijing.jpg") no-repeat center/100% 100%;
+  background-attachment: fixed;
+ }
+
+ /*以下是最新活动*/
+ .zxhd {
+  padding-top: 80px;
+ }
+
+ .zxhd .txt {
+  margin: 0 auto 50px;
+  width: 294px;
+  height: 90px;
+  text-align: center;
+  border: 1px solid #f28100;
+ }
+
+ .zxhd .txt h4 {
+  position: relative;
+  top: -20px;
+  font-family: "icon";
+  font-size: 35px;
+  color: #f28100;
+ }
+
+ .zxhd .txt h3 {
+  position: relative;
+  top: -20px;
+  font-size: 31px;
+  color: #f28100;
+  font-weight: 500;
+ }
+
+ .zxhd .txt h5 {
+  margin: 0 auto;
+  position: relative;
+  bottom: 4px;
+  font-size: 17px;
+  color: #dbdbdb;
+  text-transform: uppercase;
+  width: 192px;
+  height: 22px;
+  background: white;
+ }
+
+ .zxhd .san {
+  width: 400px;
+  height: 30px;
+  margin: 0 auto 66px;
+ }
+
+ .zxhd .san a {
+  font-size: 18px;
+  color: #A8A8A8;
+  width: 102px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  display: inline-block;
+  margin: 0 13px;
+ }
+
+ .zxhd .san a:hover {
+  background-color: #F38001;
+  color: white;
+  border-radius: 14px;
+ }
+
+ .zxhd .san .cur {
+  color: white;
+  background-color: #F38001;
+  border-radius: 14px;
+
+ }
+
+ .zxhd ul li {
+  float: left;
+  margin-bottom: 68px;
+  width: 312px;
+  height: 380px;
+  box-shadow: 0 4px 16px 2px rgba(0, 0, 0, .2);
+  margin-right: 132px;
+ }
+
+ .zxhd ul li:nth-child(3) {
+  margin-right: 0;
+ }
+
+ .zxhd ul li:nth-child(6) {
+  margin-right: 0;
+ }
+
+ .zxhd ul li img {
+  width: 100%;
+ }
+
+ .zxhd ul li a {
+  font-size: 14px;
+  font-weight: 500;
+  display: block;
+  margin: 0 auto;
+  padding-top: 24px;
+  width: 256px;
+ }
+
+ .zxhd ul li a:hover h5, p {
+  color: #202020;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+ }
+
+ .zxhd ul li a:hover h5 span {
+  color: #202020;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+ }
+
+ .zxhd ul li a:hover p {
+  color: #202020;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+ }
+
+ .zxhd ul li a h5 {
+  margin-top: 20px;
+  color: #888888;
+  font-size: 16px;
+ }
+
+ .zxhd ul li a p {
+  margin-top: 20px;;
+  color: #888888;
+ }
+
+ /*毕业了*/
+ .biye {
+  padding-top: 40px;
+  width: 100%;
+  height: 610px;
+  background: url("../../images/img/index/index_banner5.png") no-repeat center/100% 100%;
+ }
+
+ .biye .txt {
+  width: 512px;
+  display: block;
+  margin: 0 auto;
+ }
+
+ .biye .main {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  -o-justify-content: space-between;
+  justify-content: space-between;
+  width: 1300px;
+ }
+
+ .biye .main .zuo {
+  display: block;
+  float: left;
+  width: 454px;
+ }
+
+ .biye .main .you {
+  position: relative;
+  float: right;
+  padding: 40px 0 0;
+  width: 828px;
+  height: 355px;
+  background: url("../../images/img/index/index_border.png") no-repeat center/100% 100%;
+ }
+
+ .biye .main .you img {
+  margin: 0 16px;
+  width: 236px;
+  float: left;
+ }
+
+ .biye .you .ljgd {
+  position: absolute;
+  bottom: -24px;
+  left: 50%;
+  margin-left: -88px;
+  display: block;
+  width: 176px;
+  height: 48px;
+ }
+
+ .biye .you .ljgd img {
+  width: 100%
+ }
+
+}
+
+
+
+/*<!--以下是app端样式-->*/
+@media screen and (max-device-width:759px) {
+ .banner {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+ }
+
+ .banner ul {
+  list-style: none;
+  width: 500%;
+  position: absolute;
+ }
+
+ .banner ul li {
+  width: 20%;
+  float: left;
+ }
+
+ .banner ul li img {
+  width: 100%;
+  display: block;
+ }
+
+ /*以下是主体*/
+ /*以下是家园环境*/
+ .jyhj {
+   padding-top: 2rem;
+ }
+ .jyhj .txt {
+  margin: 0 auto 2rem;
+  width: 14rem;
+  height: 4rem;
+  text-align: center;
+  border: 1px solid #f28100;
+ }
+ .jyhj .txt h4 {
+  position: relative;
+  top: -1.2rem;
+  font-family: "icon";
+  font-size: 2rem;
+  color: #f28100;
+ }
+ .jyhj .txt h3 {
+  position: relative;
+  top: -1.4rem;
+  font-size: 1.6rem;
+  color: #f28100;
+  font-weight: 500;
+ }
+
+ .jyhj .txt h5 {
+  margin: 0 auto;
+  position: relative;
+  bottom: 1.25rem;
+  font-size: 1rem;
+  color: #dbdbdb;
+  text-transform: uppercase;
+  background: white;
+  width: 80%;
+  height: 1.3rem;
+ }
+ .jyhj .zhuti {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  -ms-justify-content: space-around;
+  -o-justify-content: space-around;
+  justify-content: space-around;
+ }
+
+ .jyhj .zhuti li {
+  position: relative;
+  width: 47%;
+  height: 10rem;
+  overflow: hidden;
+  margin-bottom: 1rem;
+ }
+ .jyhj .zhuti li:nth-child(5){margin: 0}
+ .jyhj .zhuti li:nth-child(6){margin: 0}
+
+ .jyhj .zhuti li img {
+  width: 100%;
+  height: 100%;
+ }
+ .jyhj .zhuti li img:hover {
+  transform: scale(1.2);
+  transition: all .5s;
+ }
+ .jyhj .zhuti li a {
+  position: absolute;
+  padding-left: 2rem;
+  display: block;
+  width: 100%;
+  height: 2rem;
+  font-size: 1rem;
+  color: #3c3c3c;
+  line-height: 2rem;
+  background: rgba(255, 255, 255, .6);
+ }
+
+ .jyhj .zhuti li:hover a {
+  bottom: 0;
+ }
+
+ /*以下是特色课程*/
+ .tskc {
+  padding-top: 4.75rem;
+  width: 100%;
+  height: 72.5rem;
+  background: url("../../images/img/index/index_banner2.png") no-repeat center/cover;
+ }
+
+ .tskc .txt {
+  margin: 0 auto 1.5rem;
+  width: 14rem;
+  height: 4rem;
+  text-align: center;
+  border: 1px solid #fff;
+ }
+ .tskc .txt h4 {
+  position: relative;
+  top: -1.2rem;
+  font-family: "icon";
+  font-size: 2rem;
+  color: #fff;
+ }
+ .tskc .txt h3 {
+  position: relative;
+  top: -1.4rem;
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: 500;
+ }
+
+ .tskc .txt h5 {
+  margin: 0 auto;
+  position: relative;
+  bottom: 1.25rem;
+  font-size: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+  background: white;
+  width: 80%;
+  height: 1.3rem;
+  background: #ff8f10;
+ }
+ .tskc .jieshao {
+  text-align: center;
+  color: #3d3d3d;
+  font-size: 0.8rem;
+  width: 90%;
+  margin: 0 auto;
+ }
+ .tskc ul {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  -o-justify-content: space-between;
+  justify-content: space-between;
+  border-top: 1px dotted white;
+ }
+ .tskc ul li {
+  position: relative;
+  width: 94%;
+  height: 13rem;
+  margin: 0.1rem auto;
+  border-bottom: 1px dotted white;
+  padding-top: 0.6rem;
+ }
+ .tskc ul li .tu {
+  width: 34%;
+  float: left;
+}
+ .tskc ul li .zhuti {
+  float: right;
+  width: 63%;
+ }
+
+ .tskc ul li .zhuti .donghua .icon {
+  display: none;
+ }
+
+ .tskc ul li .zhuti .donghua a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 600;
+ }
+
+ .tskc ul li .zhuti .donghua a span {
+  font-size: 0.8rem;
+ }
+
+ .tskc ul li .zhuti .donghua p {
+  margin: 1px auto 0;
+  width: 100%;
+  line-height: 1.4rem;
+  font-size: 0.8rem;
+  color: white;
+ }
+ .tskc .ljgd {
+  display: block;
+  margin: 0.75rem auto 0;
+  width: 11rem;
+  height: 3rem;
+  background: white;
+  font-size: 1.125rem;
+  text-align: center;
+  line-height: 3rem;
+  border-radius: 10px;
+  color: #ee7e00;
+  box-shadow: 0 1px 5px 2px rgba(0, 0, 0, .27);
+ }
+ .tskcbanner {
+  width: 100%;
+  font-size: 1.75rem;
+  line-height: 18rem;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  background: url("../../images/img/index/yidongbeijing.jpg") no-repeat center/130% 100%;
+  background-attachment: fixed;
+ }
+
+ /*以下是最新活动*/
+ .zxhd {
+  padding-top: 2.5rem;
+ }
+
+ .zxhd .txt {
+  margin: 0 auto 2rem;
+  width: 14rem;
+  height: 4rem;
+  text-align: center;
+  border: 1px solid #f28100;
+ }
+ .zxhd .txt h4 {
+  position: relative;
+  top: -1.2rem;
+  font-family: "icon";
+  font-size: 2rem;
+  color: #f28100;
+ }
+ .zxhd .txt h3 {
+  position: relative;
+  top: -1.4rem;
+  font-size: 1.6rem;
+  color: #f28100;
+  font-weight: 500;
+ }
+
+ .zxhd .txt h5 {
+  margin: 0 auto;
+  position: relative;
+  bottom: 1.25rem;
+  font-size: 1rem;
+  color: #dbdbdb;
+  text-transform: uppercase;
+  background: white;
+  width: 80%;
+  height: 1.3rem;
+ }
+
+ .zxhd .san {
+  width: 90%;
+  margin: 0 auto 1.8rem;
+ }
+
+ .zxhd .san a {
+  font-size: 1.1rem;
+  color: #A8A8A8;
+  width: 5.8rem;
+  height: 1.8rem;
+  line-height: 1.8rem;
+  text-align: center;
+  display: inline-block;
+  margin: 0 0.8rem;
+ }
+
+ .zxhd .san a:hover {
+  background-color: #F38001;
+  color: white;
+  border-radius: 0.87rem;
+ }
+
+ .zxhd .san .cur {
+  color: white;
+  background-color: #F38001;
+  border-radius: 0.87rem;
+
+ }
+
+ .sanzhuti{
+  width: 94%;
+  margin: 0 auto;
+ }
+
+ .zxhd ul li {
+  width: 100%;
+  box-shadow: 0 4px 1rem 2px rgba(0, 0, 0, .2);
+  height: 7rem;
+  margin: 0.5rem auto;
+  padding-top: 0.7rem;
+ }
+
+ .zxhd ul li img {
+  width: 35%;
+  float: left;
+  display: inline-block;
+ }
+
+ .zxhd ul li a {
+  float: right;
+  font-size: 0.875rem;
+  font-weight: 500;
+  display: inline-block;
+  margin: 0 auto;
+  width: 62%;
+ }
+
+ .zxhd ul li a:hover h5, p {
+  color: #202020;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+ }
+
+ .zxhd ul li a:hover h5 span {
+  color: #202020;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+ }
+
+ .zxhd ul li a:hover p {
+  color: #202020;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+ }
+
+ .zxhd ul li a h5 {
+  color: #888888;
+  font-size: 1rem;
+ }
+
+ .zxhd ul li a p {
+  margin-top: 0.5rem;;
+  color: #888888;
+ }
+
+ /*毕业了*/
+ .biye {
+  padding-top: .5rem;
+  width: 100%;
+  height: 16.125rem;
+  background: url("../../images/img/index/index_banner5.png") no-repeat center/100% 100%;
+ }
+
+ .biye .txt {
+  width: 18rem;
+  display: block;
+  margin: 0 auto;
+ }
+
+ .biye .main {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  -o-justify-content: space-between;
+  justify-content: space-between;
+  width: 100%;
+ }
+
+ .biye .main .zuo {
+  display: block;
+  float: left;
+  width: 28rem;
+ }
+
+ .biye .main .you {
+  position: relative;
+  float: right;
+  padding: .5rem 0 0;
+  width: 51rem;
+  height: 7rem;
+  background: url("../../images/img/index/index_border.png") no-repeat center/100% 100%;
+ }
+
+ .biye .main .you img {
+  margin: 0 0.3rem;
+  width: 5rem;
+  float: left;
+ }
+
+ .biye .you .ljgd {
+  position: absolute;
+  bottom: -1.5rem;
+  left: 50%;
+  margin-left: -4.5rem;
+  display: block;
+
+ }
+
+ .biye .you .ljgd img {
+  width: 61%
+ }
+
+
+
+
+
+
+
+
+}

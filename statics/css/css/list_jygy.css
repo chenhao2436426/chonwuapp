@@ -1,0 +1,590 @@
+/*<!--以下是pc端样式-->*/
+@media screen and (min-device-width: 760px) {
+
+    /*<!--banner-->*/
+    .banner {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    /*<!--主体-->*/
+    /*每周食谱*/
+    .mzsp {
+        position: relative;
+        top: -10px;
+        padding-top: 68px;
+        width: 100%;
+        height: 898px;
+        background: url("../../images/img/list_jygy/inoculation_banner2.png") no-repeat center/100% 100%;
+    }
+
+    .mzsp .mzspicon {
+        margin: 0 auto;
+        display: block;
+        width: 216px;
+        height: 142px;
+    }
+
+    .mzsp .box {
+        position: relative;
+        top: 12px;
+        height: 630px;
+    }
+
+    .mzsp .box ul {
+        width: 100%;
+        height: 100%;
+        background: url("../../images/img/list_jygy/inoculation_border.png") no-repeat center;
+    }
+
+    .mzsp .box ul li {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+
+    .mzsp .box ul li.curr {
+        display: block;
+    }
+
+    .mzsp .box ul li img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .mzsp .box .pageN {
+        display: none;
+    }
+
+    .mzsp .box .pageN p {
+        float: right;
+        height: 100%;
+    }
+
+    .mzsp .box .pageN p a {
+        float: left;
+        margin-left: 4px;
+        display: block;
+        width: 27px;
+        height: 24px;
+        background: rgba(82, 36, 36, 0.8);
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .mzsp .box .pageN p a.cur {
+        background: rgba(124, 92, 93, 0.8);
+    }
+
+    .mzsp .box .leftBtn, .mzsp .box .rightBtn {
+        z-index: 10;
+        position: absolute;
+        text-align: center;
+        color: #24231F;
+        cursor: pointer;
+        font-family: icon;
+        font-size: 100px;
+    }
+
+    .mzsp .box .leftBtn {
+        top: 50%;
+        left: 20px;
+    }
+
+    .mzsp .box .rightBtn {
+        top: 50%;
+        right: 20px;
+    }
+
+    .mzsp .content {
+        margin: 0 auto;
+        width: 780px;
+        height: 635px;
+        padding: 64px 75px;
+    }
+
+    .mzsp .box .content p {
+        margin-left: 58px;
+        font-size: 16px;
+        color: #414141;
+    }
+
+    .mzsp .box .content .recipeNav {
+        margin: 20px 58px;
+        width: 504px;
+        height: 48px;
+        border: 1px dashed #FD4500;
+        border-radius: 10px;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+    }
+
+    .mzsp .box .content .recipeNav a {
+        display: block;
+        width: 20%;
+        height: 100%;
+        border-right: 1px dashed #FD4500;
+        text-align: center;
+        line-height: 46px;
+        font-size: 16px;
+        color: #FD4500;
+    }
+
+    .mzsp .box .content .recipeNav a:last-child {
+        border-right: none;
+    }
+
+    .mzsp .box .content table {
+        width: 562px;
+        border-collapse: collapse;
+        text-align: center;
+    }
+
+    .mzsp .box .content table tr {
+
+    }
+
+    .mzsp .box .content table tr td {
+        width: 100px;
+        border: 1px dashed #CBCBCB;
+        color: #818181;
+    }
+
+    .mzsp .box .content table tr td:first-child {
+        width: 58px;
+        font-size: 18px;
+        color: #D90B0D;
+    }
+
+    /*儿童保健*/
+    .tubiao .top {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-justify-content: space-between;
+        -moz-justify-content: space-between;
+        -ms-justify-content: space-between;
+        -o-justify-content: space-between;
+        justify-content: space-between;
+        padding: 90px 192px 40px;
+    }
+
+    .tubiao .top a {
+        display: inline-block;
+        width: 225px;
+        height: 58px;
+    }
+
+    .tubiao .top a:first-child {
+        background: #13b5b1;
+    }
+
+    .tubiao .top a:nth-child(2) {
+        background: #f3ace8;
+    }
+
+    .tubiao .top a:nth-child(3) {
+        background: #f6e585;
+    }
+
+    .tubiao .top a img {
+        width: 40px;
+        float: left;
+        height: 38px;
+        margin: 10px 28px;
+    }
+
+    .tubiao .top a p {
+        float: left;
+        color: white;
+        font-size: 16px;
+        line-height: 58px;
+    }
+
+    .tubiao .top .cur p {
+        font-weight: bold;
+    }
+
+    .tubiao .zhuti .huangtiao {
+        margin-bottom: 10px;
+        width: 100%;
+        height: 7px;
+    }
+
+    .tubiao .zhuti ul {
+        margin-bottom: 250px;
+    }
+
+    .tubiao .zhuti ul li {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-justify-content: space-between;
+        -moz-justify-content: space-between;
+        -ms-justify-content: space-between;
+        -o-justify-content: space-between;
+        justify-content: space-between;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -ms-align-items: center;
+        -o-align-items: center;
+        align-items: center;
+        width: 100%;
+        height: 120px;
+        border-bottom: 1px solid #eeeeee;
+    }
+
+    .tubiao .zhuti ul li img {
+        margin-left: 74px;
+        width: 132px;
+        height: 90px;
+    }
+
+    .tubiao .zhuti ul li .tubiaotxt {
+        margin-right: 80px;
+        width: 890px;
+        font-size: 12px;
+        color: #7c7c7c;
+        line-height: 28px;
+    }
+
+    .tubiao .zhuti ul li .tubiaotxt h5 {
+        font-size: 16px;;
+        color: #212121;
+    }
+
+    .tubiao .zhuti ul li .tubiaotxt p {
+        margin-top: 4px;
+        font-size: 13px;
+        line-height: 21px;
+    }
+}
+
+/*<!--以下是app端样式-->*/
+@media screen and (max-device-width:759px) {
+
+    /*<!--banner-->*/
+    .banner {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    /*<!--主体-->*/
+    /*每周食谱*/
+    .mzsp {
+        position: relative;
+        padding-top: 0.5rem;
+        width: 100%;
+        margin: 0 auto;
+        height: 28rem;
+        background: url("../../images/img/list_jygy/inoculation_banner2.png") no-repeat center/100% 100%;
+    }
+
+    .mzsp .mzspicon {
+        margin: 0 auto;
+        display: block;
+        width: 32%;
+    }
+
+    .mzsp .box {
+        position: absolute;
+        width: 100%;
+        margin: 0 auto;
+        top: 0.75rem;
+        height: 39.4rem;
+    }
+
+    .mzsp .box ul {
+        position: relative;
+        width: 90%;
+        height: 49%;
+        margin: 5.5rem auto 0;
+        background: url("../../images/img/list_jygy/inoculation_border.png") no-repeat center;
+    }
+
+    .mzsp .box ul li {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: none;
+    }
+
+    .mzsp .box ul li.curr {
+        display: block;
+    }
+
+    .mzsp .box ul li img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .mzsp .box .pageN {
+        display: none;
+    }
+
+    .mzsp .box .pageN p {
+        float: right;
+        height: 100%;
+    }
+
+    .mzsp .box .pageN p a {
+        float: left;
+        margin-left: 4px;
+        display: block;
+        width: 27px;
+        height: 24px;
+        background: rgba(82, 36, 36, 0.8);
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .mzsp .box .pageN p a.cur {
+        background: rgba(124, 92, 93, 0.8);
+    }
+
+    .mzsp .box .leftBtn, .mzsp .box .rightBtn {
+        z-index: 10;
+        position: absolute;
+        text-align: center;
+        color: #24231F;
+        cursor: pointer;
+        font-family: icon;
+        font-size: 100px;
+    }
+
+    .mzsp .box .leftBtn {
+        display: none;
+        top: 50%;
+        left: 20px;
+    }
+
+    .mzsp .box .rightBtn {
+        display: none;
+        top: 50%;
+        right: 20px;
+    }
+
+    .mzsp .content {
+        margin: 0 auto;
+        width: 100%;
+
+    }
+
+    .mzsp .box .content p {
+        margin-left: 6.2rem;
+        font-size: 1rem;
+        color: #414141;
+    }
+
+    .mzsp .box .content .recipeNav {
+        width: 94%;
+       margin: 0 auto;
+        border: 1px dashed #FD4500;
+        border-radius: 10px;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+    }
+
+    .mzsp .box .content .recipeNav a {
+        display: block;
+        width: 20%;
+        height: 100%;
+        border-right: 1px dashed #FD4500;
+        text-align: center;
+        line-height: 1.5rem;
+        font-size: 1rem;
+        color: #FD4500;
+    }
+
+    .mzsp .box .content .recipeNav a:last-child {
+        border-right: none;
+    }
+
+    .mzsp .box .content table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+    }
+
+    .mzsp .box .content table tr {
+        width: 76%;
+    }
+
+    .mzsp .box .content table tr td {
+        width: 6.25rem;
+        font-size: 0.75rem;
+        border: 1px dashed #CBCBCB;
+        color: #818181;
+    }
+
+    .mzsp .box .content table tr td:first-child {
+        width: 1.875rem;
+        font-size: 0.75rem;
+        color: #D90B0D;
+    }
+
+
+    /*儿童保健*/
+    .tubiao .top {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-justify-content: space-between;
+        -moz-justify-content: space-between;
+        -ms-justify-content: space-between;
+        -o-justify-content: space-between;
+        justify-content: space-between;
+        width: 90%;
+        height: 3.125rem;
+        margin: 1rem auto 0;
+    }
+
+    .tubiao .top a {
+        display: inline-block;
+        width: 14rem;
+        height: 3.625rem;
+    }
+
+    .tubiao .top a:first-child {
+        background: #13b5b1;
+    }
+
+    .tubiao .top a:nth-child(2) {
+        background: #f3ace8;
+    }
+
+    .tubiao .top a:nth-child(3) {
+        background: #f6e585;
+    }
+
+    .tubiao .top a img {
+        width: 2.5rem;
+        float: left;
+        height: 2.375rem;
+        margin: 0.375rem 0.375rem;
+    }
+
+    .tubiao .top a p {
+        float: left;
+        color: white;
+        font-size: 1rem;
+        line-height: 3.625rem;
+    }
+
+    .tubiao .top .cur p {
+        font-weight: bold;
+    }
+
+    .tubiao .zhuti .huangtiao {
+        margin-bottom: 0.625rem;
+        width: 100%;
+        height: 0.44rem;
+        margin-top: 1.94rem;
+    }
+
+    .tubiao .zhuti ul {
+        width: 94%;
+        margin: 0 auto 6rem;
+    }
+
+    .tubiao .zhuti ul li {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-justify-content: space-between;
+        -moz-justify-content: space-between;
+        -ms-justify-content: space-between;
+        -o-justify-content: space-between;
+        justify-content: space-between;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -ms-align-items: center;
+        -o-align-items: center;
+        align-items: center;
+        width: 100%;
+        height: 7.5rem;
+        border-bottom: 1px solid #eeeeee;
+    }
+
+    .tubiao .zhuti ul li img {
+        width: 100%;
+    }
+
+    .tubiao .zhuti ul li .tubiaotxt {
+        width: 74rem;
+        font-size: 0.75rem;
+        color: #7c7c7c;
+        line-height: 1.75rem;
+    }
+
+    .tubiao .zhuti ul li .tubiaotxt h5 {
+        font-size: 1rem;;
+        color: #212121;
+        margin-left: 0.68rem;
+
+    }
+
+    .tubiao .zhuti ul li .tubiaotxt p {
+        font-size: 0.75rem;
+        line-height: 1rem;
+        margin-left: 0.68rem;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

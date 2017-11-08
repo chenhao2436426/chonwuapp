@@ -1,0 +1,356 @@
+/*<!--以下是pc端样式-->*/
+@media screen and (min-device-width: 760px) {
+.list_jzktbanner{ width: 100%; overflow: hidden; }
+.bannerzhuti{
+    position: absolute;
+    width: 553px;
+    height: 352px;
+    left: 50%;
+    margin-left: -276px;
+    bottom: 14%;
+}
+.bannerdingwei{
+    position: relative;
+}
+.bannerzhuti .neirong{
+    position: absolute;
+    left: 50%;
+    margin-left: -276px;
+    width: 553px;
+    height: 352px;
+    padding: 115px 0 0 145px;
+    background: url("../../images/img/list_jzkt/black_boder.png") no-repeat center;
+    color: #fff;
+}
+.bannerzhuti .neirong p{
+    margin-bottom: 14px;
+    width: 308px;
+    padding:0 16px;
+    border: 1px solid #6E696D;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.bannerzhuti .teacher{
+    position: absolute;
+    bottom: -79px;
+    left: -30%;
+}
+
+.bannerzhuti .child{
+    position: absolute;
+    top: 59px;
+    right: -21%;
+}
+
+
+
+
+
+.jzkt{
+    padding-top: 56px;
+    padding-bottom: 150px;
+}
+.jzkt h6{
+    position: relative;
+    font-size: 30px;
+    color: #f28100;
+    font-weight: 500;
+    text-align: center;
+}
+.jzkt h6 span{
+    display: block;
+    position: relative;
+    top: -19px;
+    font-size: 43px;
+    text-transform: uppercase;
+    color: rgba(0,167,161,.2);
+}
+.jzkt .zhuti ul li{
+    position: relative;
+    height: 194px;
+    border-bottom:1px dashed #D9D9D9 ;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.jzkt .zhuti ul li .left{
+    width: 185px;
+    height: 126px;
+    overflow: hidden;
+    margin-right: 22px;
+}
+.jzkt .zhuti ul li .right{
+    width: 824px;
+    height: 126px;
+}
+.jzkt .zhuti ul li .right h2{
+    color: #00A8A3;
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+.jzkt .zhuti ul li .right h3{
+    font-size: 14px;
+    color: #B1B1B1;
+    font-weight: normal;
+    line-height: 18px;
+    height: 16px;
+}
+.jzkt .zhuti ul li .right h3 span{
+    font-family: icon;
+}
+.jzkt .zhuti ul li .right p{
+    color: #B1B1B1;
+    font-size: 15px;
+    line-height: 22px;
+    margin-top: 7px;
+}
+.jzkt .zhuti .ckxq{
+    position: absolute;
+    right: 100px;
+    bottom: 18px;
+    display: inline-block;
+    width:100px ;
+    height:22px ;
+    line-height: 22px;
+    text-align: center;
+    color: #fff;
+    background: #F27F02;
+}
+.jzkt .zhuti .fanye{
+    height: 50px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 78px;
+}
+.jzkt .zhuti .fanye a{
+    margin: 0 10px;
+    display: block;
+    width: 100px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 50%;
+}
+.jzkt .zhuti .fanye span{
+    margin: 0 10px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    background-color: green;
+}
+.jzkt .zhuti .fanye .cur{
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    display: inline-block;
+    background: #F28100;
+    border-radius: 50%;
+    color: #fff;
+}
+.jzkt .zhuti .fanye a:first-child{
+    width: 126px;
+    text-align: left;
+}
+.jzkt .zhuti .fanye a:last-child{
+    width: 126px;
+    text-align: right;
+}
+}
+
+/*<!--以下是app端样式-->*/
+@media screen and (max-device-width:759px) {
+
+    .list_jzktbanner{ width: 100%; overflow: hidden; height: 16rem;}
+
+    .bannerdingwei{
+        position: relative;
+    }
+    .bannerzhuti .neirong{
+        position: absolute;
+        bottom: 1rem;
+        left: 5%;
+        width: 90%;
+        background: url("../../images/img/list_jzkt/black_boder.png") no-repeat center/100% 100%;
+        color: #fff;
+        height: 14rem;
+        padding-top: 4.5rem;
+    }
+    .bannerzhuti .neirong p{
+        margin-bottom: 0.75rem;
+        width: 15.4rem;
+        padding:0 1rem;
+        border: 1px solid #6E696D;
+        line-height: 0.81rem;
+        font-size: 0.68rem;
+        margin-left: 6rem;
+    }
+
+    .bannerzhuti .teacher{
+        display: none;
+        position: absolute;
+        bottom: -79px;
+        left: -30%;
+    }
+
+    .bannerzhuti .child{
+        display: none;
+        position: absolute;
+        top: 59px;
+        right: -21%;
+    }
+
+    .jzkt{
+        padding-top: 1rem;
+        width: 100%;
+        background: #e8e8e8;
+    }
+    .jzkt h6{
+        position: relative;
+        font-size: 1.8rem;
+        color: #f28100;
+        font-weight: 500;
+        text-align: center;
+    }
+    .jzkt h6 span{
+        display: block;
+        position: relative;
+        top: -1.5rem;
+        font-size: 2rem;
+        text-transform: uppercase;
+        color: rgba(0,167,161,.2);
+    }
+
+
+    .jzkt .zhuti ul li{
+        width: 94%;
+        margin: 0 auto;
+        border-bottom:1px dashed #D9D9D9 ;
+        overflow: hidden;
+    }
+    .jzkt .zhuti ul li .left{
+        width: 90%;
+        margin: 0 auto;
+        height: 100%;
+        overflow: hidden;
+    }
+    .jzkt .zhuti ul li .left img{
+        width: 100%;
+    }
+    .jzkt .zhuti ul li .right{
+        width:90%;
+       margin: 0 auto;
+    }
+    .jzkt .zhuti ul li .right h2{
+        color: #00A8A3;
+        font-size: 1.125rem;
+        margin-bottom: 1px;
+        margin-top: 2px;
+    }
+    .jzkt .zhuti ul li .right h3{
+        font-size: 0.875rem;
+        color: #B1B1B1;
+        font-weight: normal;
+        line-height: 1.125rem;
+        height: 1rem;
+    }
+    .jzkt .zhuti ul li .right h3 span{
+        font-family: icon;
+    }
+    .jzkt .zhuti ul li .right p{
+        color: #B1B1B1;
+        font-size: 0.81rem;
+        line-height: 1.25rem;
+        margin-top: 0.18rem;
+        margin-bottom: 2px;
+    }
+    .jzkt .zhuti .ckxq{
+        display: none;
+        position: absolute;
+        right: 100px;
+        bottom: 18px;
+        width:100px ;
+        height:22px ;
+        line-height: 22px;
+        text-align: center;
+        color: #fff;
+        background: #F27F02;
+    }
+    .jzkt .zhuti .fanye{
+        width: 98%;
+        margin: 1.875rem auto 2px;
+        height:3.125rem;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-justify-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .jzkt .zhuti .fanye a{
+        margin: 0 0.625rem;
+        display: block;
+        width: 6.25rem;
+        height: 1.5rem;
+        line-height: 1.5rem;
+        text-align: center;
+        border-radius: 50%;
+    }
+    .jzkt .zhuti .fanye span{
+        margin: 0 0.625rem;
+        display: block;
+        width: 1.5rem;
+        height: 1.5rem;
+        line-height: 1.5rem;
+        color: white;
+        text-align: center;
+        border-radius: 50%;
+        background-color: green;
+    }
+    .jzkt .zhuti .fanye .cur{
+        width: 1.5rem;
+        height: 1.5rem;
+        line-height: 1.5rem;
+        text-align: center;
+        display: inline-block;
+        background: #F28100;
+        border-radius: 50%;
+        color: #fff;
+    }
+    .jzkt .zhuti .fanye a:first-child{
+        width: 7.875rem;
+        text-align: left;
+    }
+    .jzkt .zhuti .fanye a:last-child{
+        width: 7.875rem;
+        text-align: right;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

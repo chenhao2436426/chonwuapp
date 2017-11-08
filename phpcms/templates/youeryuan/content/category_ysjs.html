@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>园所介绍</title>
+    <meta name="keywords" content="{$SEO['keyword']}">
+    <meta name="description" content="{$SEO['description']}">
+    <script type="text/javascript" src="{JS_PATH}js/jquery-3.2.1.min.js"></script>
+    <script src="{JS_PATH}js/tab.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="{CSS_PATH}css/public.css">
+    <link rel="stylesheet" href="{CSS_PATH}css/list_ysjs.css"/>
+</head>
+<body>
+{template "content","header"}
+<!--banner-->
+<img src="{IMG_PATH}img/list_ysjs/garten_banner.png" alt="" class="banner"/>
+
+<!--主体-->
+<main>
+    <!--园所简介-->
+    <div class="ysjj center">
+        {pc:get sql="SELECT * FROM v9_page where catid=20"}
+        {loop $data $key $val}
+        <h3>园所简介<br><span>school profile</span></h3>
+        <div class="ysjjzhuti">
+            <div class="left">
+                <img src="{$val[img]}" alt="">
+            </div>
+            <div class="right">
+                <h5>{$val[title]}<br><span>{$val[title_en]}</span></h5>
+                <p>{$val[content]}</p>
+                <a href="" class="ckxq">查看详情&gt;&gt;</a>
+
+            </div>
+        </div>
+        {/loop}
+        {/pc}
+    </div>
+    <!--电话-->
+    <div class="tel">
+        <h4>&#xe6a3;</h4>
+        <h5>0351-123456</h5>
+        <span>山西省太原市小店区体育路长风街交叉口向南100米</span>
+    </div>
+    <!--入园须知-->
+    <div class="ryxz">
+        <div class="center">
+            <div class="kuai"></div>
+            <div class="kuang">
+                <h4>Admission notice</h4>
+                <div class="txt">
+                    <p>宝宝第一次上幼儿园，家长们都有这样那样的担心和焦虑，为了能够让宝宝更好的适应幼儿园的环境，家长要了解以下相关事项。</p>
+                    {pc:content action="lists" catid="30" moreinfo="1" num="8" order="id ASC"}
+                    <ol>
+                        {loop $data $r}
+                        <li>{$r[content]}</li>
+                        {/loop}
+                    </ol>
+                    {/pc}
+                </div>
+                <div class="ryxzzuo">
+                    <img src="{IMG_PATH}img/list_ysjs/garten_notice.png" alt="">
+                    <h5>入园须知</h5>
+                </div>
+                <img src="{IMG_PATH}img/list_ysjs/gartrn_child.png" alt="" class="ryxzshang">
+            </div>
+        </div>
+    </div>
+    <!--家园环境-->
+
+    <div class="jyhj center">
+        <h3>家园环境<br><span>Home environment</span></h3>
+        {pc:content action="lists" catid="22" moreinfo="1" num="8" order="id ASC"}
+        <ul>
+            {loop $data $r}
+            <li>
+                <img src="{thumb($r[thumb],380,240)}" alt="">
+                <div class="donghua"><a href=""><span>&#xe671;</span><br>{$r[title]}</a></div>
+            </li>
+            {/loop}
+        </ul>
+        {/pc}
+    </div>
+    <!--预约参观-->
+    <div class="yycg">
+        <h3>预约参观<br><span>Model room visits</span></h3>
+        <form class="center">
+            <div class="zhuti clear">
+                <ul class="left">
+                    <li>家长姓名：<input type="text"></li>
+                    <li>联系电话：<input type="text"></li>
+                    <li>宝宝年龄：<input type="text"></li>
+                    <li>宝宝性别：<input type="text"></li>
+                </ul>
+                <div class="right">
+                    <div class="rightT">
+                        <div class="xuanxiang cur">留言</div>
+                        <div class="xuanxiang">预约</div>
+                    </div>
+                    <div class="rightB">
+                        <div class="box cur">
+                            <input type="text" class="txt1" placeholder="主题："/>
+                            <textarea class="txt2" name="" placeholder="内容：">1</textarea>
+                        </div>
+                        <div class="box">
+                            <input type="text" class="txt1" placeholder="主题："/>
+                            <textarea class="txt2" name="" placeholder="内容：">2</textarea>
+                        </div>
+                    </div>
+                    <p><span>*</span> 对外开放时间：<span>上午9：00——12：00，下午2：00——5：00</span></p>
+                </div>
+                <div class="clears"></div>
+                <input class="tijiao" value="提交" type="submit">
+            </div>
+        </form>
+    </div>
+</main>
+
+<!--以下是页脚-->
+{template "content","footer"}
+
+</body>
+</html>

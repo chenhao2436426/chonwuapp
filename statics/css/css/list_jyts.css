@@ -1,0 +1,436 @@
+/*<!--以下是pc端样式-->*/
+@media screen and (min-device-width: 760px) {
+/*<!--banner-->*/
+.banner{ width: 100%;}
+/*<!--主体-->*/
+/*教学理念*/
+.jxln{padding-top: 56px;}
+.jxln .txt{
+    margin: 0 auto 68px;
+    width: 294px;
+    height: 90px;
+    text-align: center;
+    border: 1px solid #f28100;
+}
+.jxln .txt h4{
+    position: relative;
+    top: -20px;
+    font-family: "icon";
+    font-size: 35px;
+    color: #f28100;}
+.jxln .txt h3{
+    position: relative;
+    top: -20px;
+    font-size: 31px;
+    color: #f28100;
+    font-weight: 500;
+}
+.jxln .txt h5{
+    margin: 0 auto;
+    position: relative;
+    bottom: 4px;
+    font-size: 17px;
+    color: #dbdbdb;
+    text-transform: uppercase;
+    background: white;
+    width: 192px;
+    height: 22px;
+}
+.jxln .zhuti{
+    margin: 64px 0;
+    width: 100%;
+    height: 364px;
+}
+.jxln .zhuti .left{
+    width: 468px;
+    height: 360px;
+    float: left;
+}
+.jxln .zhuti .left img{
+    width: 100%;
+    height: 100%;
+}
+.jxln .zhuti .right{
+    padding-top: 30px;
+    float: right;
+    width: 42rem;
+    font-size: 16px;
+    color: #242424;
+    line-height: 40px;
+}
+
+
+.jxln2{
+    padding-top: 56px;
+    width: 100%;
+    background: #f1f1f3;
+}
+.jxln2 .txt{
+    margin: 0 auto 50px;
+    width: 294px;
+    height: 90px;
+    text-align: center;
+    border: 1px solid #f28100;
+}
+.jxln2 .txt h4{
+    position: relative;
+    top: -20px;
+    font-family: "icon";
+    font-size: 35px;
+    color: #f28100;
+}
+.jxln2 .txt h3{
+    position: relative;
+    top: -20px;
+    font-size: 31px;
+    color: #f28100;
+    font-weight: 500;
+}
+.jxln2 .txt h5{
+    margin: 0 auto;
+    position: relative;
+    bottom: 4px;
+    font-size: 17px;
+    color: #dbdbdb;
+    text-transform: uppercase;
+    width: 192px;
+    height: 22px;
+    background: #f1f1f3;
+}
+.jxln2 .san{
+    width: 300px;
+    height: 30px;
+    margin: 0 auto 66px;
+}
+.jxln2 .san a{
+    font-size: 18px;
+    color: #A8A8A8;
+    width: 102px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 22px;
+}
+.jxln2 .san a:hover{
+    background-color: #F38001;
+    color: white;
+    border-radius: 14px;
+}
+.jxln2 .san .cur{
+    color: white;
+    background-color: #F38001;
+    border-radius: 14px;
+
+}
+
+
+
+/*以下是教学理念2*/
+.jxln2neirong{
+    height: 900px;
+}
+.jxln2zhuti{
+    margin-top: 48px;
+    margin-bottom: 50px;
+}
+.jxln2zhuti li{
+    position: relative;
+    width: 256px;
+    height: 362px;
+    margin-bottom: 56px;
+    margin-right: 58px;
+    float: left;
+}
+.jxln2zhuti li:nth-child(4){
+    margin-right: 0;
+}
+.jxln2zhuti li:nth-child(8){
+    margin-right: 0;
+}
+.jxln2zhuti li .tu{
+    width: 100%;
+}
+.jxln2zhuti li .zhuti{
+    position: absolute;
+    top: -40px;
+    left: 0;
+    width: 100%;
+    height: 401px;
+    overflow: hidden;
+}
+.jxln2zhuti li .zhuti .donghua{
+    padding-top: 16%;
+    position: relative;
+    top: 300px;
+    width: 100%;
+    height: 361px;
+}
+.jxln2zhuti li .zhuti .donghua1{background: rgba(0,0,0,.7);}
+.jxln2zhuti li .zhuti .donghua2{background: rgba(96,114,232,.9);}
+.jxln2zhuti li .zhuti .donghua3{background: rgba(240,101,25,.9);}
+.jxln2zhuti li .zhuti .donghua4{background: rgba(246,96,117,.9);}
+.jxln2zhuti li .zhuti .donghua1 .icon{background: rgba(0,0,0,.7);}
+.jxln2zhuti li .zhuti .donghua2 .icon{background: rgba(96,114,232,.7);}
+.jxln2zhuti li .zhuti .donghua3 .icon{background: rgba(240,101,25,.7);}
+.jxln2zhuti li .zhuti .donghua4 .icon{background: rgba(246,96,117,.7);}
+.jxln2zhuti li .zhuti .donghua .icon{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    margin-left: -40px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.jxln2zhuti li .zhuti .donghua a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+}
+.jxln2zhuti li .zhuti .donghua a span{
+    font-size: 13px;
+}
+.jxln2zhuti li .zhuti .donghua p{
+    margin: 24px auto 0;
+    width: 210px;
+    line-height: 24px;
+    font-size: 14px;
+    color: white;
+}
+.jxln2zhuti li .zhuti:hover .donghua{
+    top: 40px;
+    transition: all .5s;
+}
+}
+
+/*<!--以下是app端样式-->*/
+@media screen and (max-device-width:759px) {
+    /*<!--banner-->*/
+    .banner{ width: 100%;}
+
+    /*<!--主体-->*/
+    /*教学理念*/
+    .jxln {
+        padding-top: 2rem;
+    }
+    .jxln .txt {
+        margin: 0 auto 2rem;
+        width: 14rem;
+        height: 4rem;
+        text-align: center;
+        border: 1px solid #f28100;
+    }
+    .jxln .txt h4 {
+        position: relative;
+        top: -1.2rem;
+        font-family: "icon";
+        font-size: 2rem;
+        color: #f28100;
+    }
+    .jxln .txt h3 {
+        position: relative;
+        top: -1.4rem;
+        font-size: 1.6rem;
+        color: #f28100;
+        font-weight: 500;
+    }
+
+    .jxln .txt h5 {
+        margin: 0 auto;
+        position: relative;
+        bottom: 1.25rem;
+        font-size: 1rem;
+        color: #dbdbdb;
+        text-transform: uppercase;
+        background: white;
+        width: 80%;
+        height: 1.3rem;
+    }
+
+    .jxln .zhuti{
+        width: 94%;
+        margin: 0 auto;
+    }
+    .jxln .zhuti .left{
+        width: 100%;
+    }
+    .jxln .zhuti .left img{
+        width: 100%;
+        height: 100%;
+    }
+    .jxln .zhuti .right{
+        padding-top: 1rem;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 0.8rem;
+        color: #242424;
+        line-height: 1.6rem;
+        text-indent: 2rem;
+    }
+
+
+    .jxln2 {
+        padding-top: 2rem;
+        width: 100%;
+        background: #f1f1f3;
+    }
+    .jxln2 .txt {
+        margin: 0 auto 2rem;
+        width: 14rem;
+        height: 4rem;
+        text-align: center;
+        border: 1px solid #f28100;
+    }
+    .jxln2 .txt h4 {
+        position: relative;
+        top: -1.2rem;
+        font-family: "icon";
+        font-size: 2rem;
+        color: #f28100;
+    }
+    .jxln2 .txt h3 {
+        position: relative;
+        top: -1.4rem;
+        font-size: 1.6rem;
+        color: #f28100;
+        font-weight: 500;
+    }
+
+    .jxln2 .txt h5 {
+        margin: 0 auto;
+        position: relative;
+        bottom: 1.25rem;
+        font-size: 1rem;
+        color: #dbdbdb;
+        text-transform: uppercase;
+        width: 80%;
+        height: 1.3rem;
+        background: #f1f1f3;
+    }
+    .jxln2 .san{
+        width: 18.75rem;
+        height: 1.875rem;
+        margin: 0 auto 2.5rem;
+    }
+    .jxln2 .san a{
+        font-size: 1rem;
+        color: #A8A8A8;
+        width: 6.375rem;
+        height: 1.875rem;
+        line-height: 1.875rem;
+        text-align: center;
+        display: inline-block;
+        margin: 0 22px;
+    }
+    .jxln2 .san a:hover{
+        background-color: #F38001;
+        color: white;
+        border-radius: 0.875rem;
+    }
+    .jxln2 .san .cur{
+        color: white;
+        background-color: #F38001;
+        border-radius: 0.875rem;
+
+    }
+
+
+    /*以下是教学理念2*/
+    .jxln2neirong{
+        width: 90%;
+        margin: 0 auto;
+
+    }
+    .jxln2zhuti{
+        margin-top: 2rem;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -o-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-justify-content: space-between;
+        -moz-justify-content: space-between;
+        -ms-justify-content: space-between;
+        -o-justify-content: space-between;
+        justify-content: space-between;
+        border-top: 1px dotted white;
+    }
+    .jxln2zhuti li{
+        position: relative;
+        width: 94%;
+        height: 13rem;
+        margin: 0.1rem auto;
+        border-bottom: 1px dotted #A8A8A8;
+        padding-top: 0.6rem;
+    }
+
+    .jxln2zhuti li .tu{
+        width: 34%;
+        float: left;
+    }
+    .jxln2zhuti li .zhuti{
+        float: right;
+        width: 63%;
+    }
+    .jxln2zhuti li .zhuti .donghua .icon{
+        display: none;
+    }
+
+    .jxln2zhuti li .zhuti .donghua a{
+        display: block;
+        color: #A8A8A8;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .jxln2zhuti li .zhuti .donghua a span{
+        display: none;
+    }
+    .jxln2zhuti li .zhuti .donghua p{
+        margin: 1px auto 0;
+        width: 100%;
+        line-height: 1.3rem;
+        font-size: 0.8rem;
+        color: #A8A8A8;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

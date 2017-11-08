@@ -1,0 +1,746 @@
+
+/*<!--以下是pc端样式-->*/
+@media screen and (min-device-width: 760px) {
+/*<!--banner-->*/
+.banner{ width: 100%; overflow: hidden; position: relative;}
+/*<!--主体-->*/
+/*园所简介*/
+.ysjj{padding-top: 56px;}
+.ysjj h3{
+    position: relative;
+    font-size: 30px;
+    color: #f28100;
+    font-weight: 500;
+    text-align: center;
+}
+.ysjj h3 span{
+    display: block;
+    position: relative;
+    top: -19px;
+    font-size: 43px;
+    text-transform: uppercase;
+    color: rgba(0,167,161,.2);
+}
+
+
+.ysjj .ysjjzhuti{
+    margin-top: 44px;
+    width: 1112px;
+    height: 458px;
+}
+.ysjj .ysjjzhuti .left{
+    float: left;
+    width: 500px;
+    height: 352px;
+}
+.ysjj .ysjjzhuti .left img{
+    width: 100%;
+    height: 100%;
+}
+.ysjj .ysjjzhuti .right{
+    padding-top: 48px;
+    float: right;
+    width: 574px;
+}
+.ysjj .ysjjzhuti .right h5{
+    font-weight: 500;
+    font-size: 32px;
+    color: #59a9a8;
+}
+.ysjj .ysjjzhuti .right h5 span{
+    position: relative;
+    top: -16px;
+    font-size: 18px;
+    color: #d2d2d2;
+    text-transform: uppercase;
+}
+.ysjj .ysjjzhuti .right p{
+    font-size: 14px;
+    color: #353535;
+    line-height: 30px;
+    text-indent: 2em;
+}
+.ysjj .ysjjzhuti .right .ckxq{
+    display: block;
+    float: right;
+    margin-top: 60px;
+    width: 157px;
+    height: 38px;
+    color: white;
+    text-align: center;
+    line-height: 38px;
+    background: #f28100;
+}
+
+/*<!--电话-->*/
+.tel{
+    padding-top: 26px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background: #28b6ea;
+}
+.tel h4{
+    display: block;
+    font-family: icon;
+    font-size: 46px;
+}
+.tel h5{
+    display: block;
+    font-size: 3rem;
+    line-height: 78px;
+}
+.tel span{
+    display: block;
+    padding-bottom: 48px;
+    font-size: 20px;
+}
+
+/*<!--入园须知-->*/
+.ryxz{
+    width: 100%;
+    background: #ffc98c;
+}
+.ryxz .center{
+    position: relative;
+    height: 640px;
+}
+.ryxz .kuai{
+    position: absolute;
+    top: 76px;
+    left: 200px;
+    width: 490px;
+    height: 292px;
+    border-radius: 13px;
+    background: #ffc17b;
+}
+.ryxz .center .kuang{
+    position: relative;
+    right: -336px;
+    top: 152px;
+    width: 790px;
+    height: 384px;
+    border: 2px solid #6a462b;
+    border-radius: 13px;
+    background: #ffc98c;
+}
+.ryxz .center .kuang h4{
+    position: absolute;
+    top: -54px;
+    left: -139px;
+    font-size: 48px;
+    color: #6a462b;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+.ryxz .center .kuang .txt{
+    margin: 0 auto;
+    padding-top: 34px;
+    width: 668px;
+    color: #151515;
+}
+.ryxz .center .kuang .txt p{
+    font-size: 16px;
+    line-height: 30px;
+}
+.ryxz .center .kuang .txt ol{
+    margin-left:25px;
+    padding-left: 16px;
+    font-size: 14px;
+    line-height: 32px;
+}
+.ryxz .center .kuang .txt ol li{
+    position: relative;
+}
+.ryxz .center .kuang .txt ol li:before{
+    position: absolute;
+    left: -40px;top: 12px;
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #333;
+}
+.ryxz .ryxzzuo{
+    position: absolute;
+    top: 240px;
+    left: -304px;
+    width: 356px;
+    height: 228px;
+}
+.ryxz .ryxzzuo h5{
+    position: absolute;
+    top: 128px;
+    right: 32px;
+    font-size: 36px;
+    color: #f28100;
+}
+.ryxz .ryxzshang{
+    position: absolute;
+    top: -140px;
+    right: 0;
+    width: 170px;
+    height: 138px;
+}
+
+/*<!--家园环境-->*/
+.jyhj{padding-top: 56px;}
+.jyhj h3{
+    position: relative;
+    font-size: 30px;
+    color: #f28100;
+    font-weight: 500;
+    text-align: center;
+}
+.jyhj h3 span{
+    display: block;
+    position: relative;
+    top: -19px;
+    font-size: 43px;
+    text-transform: uppercase;
+    color: rgba(0,167,161,.2);
+}
+.jyhj ul{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    -o-justify-content: space-between;
+    justify-content: space-between;
+}
+.jyhj ul li{
+    margin-bottom: 23px;
+    width: 282px;
+    height: 198px;
+    overflow: hidden;
+}
+.jyhj ul li:hover .donghua{
+    transform: translateY(-12.6rem);
+    transition: all .5s;
+}
+.jyhj ul li img{
+    width: 100%;
+    height: 100%;
+}
+.jyhj ul li .donghua{
+    width: 100%;
+    height: 202px;
+    background: rgba(0,0,0,.5);
+    padding-top: 48px;
+}
+.jyhj ul li .donghua a{
+    display: block;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.jyhj ul li .donghua a span{
+    font-family: icon;
+    font-size: 66px;
+    color: #ff7700;
+}
+
+/*预约参观*/
+
+.yycg{
+    padding-top: 56px;
+    height: 680px;
+    width: 100%;
+    background: #e8e8e8;
+}
+.yycg h3{
+    position: relative;
+    font-size: 30px;
+    color: #f28100;
+    font-weight: 500;
+    text-align: center;
+}
+.yycg h3 span{
+    display: block;
+    position: relative;
+    top: -19px;
+    font-size: 43px;
+    text-transform: uppercase;
+    color: rgba(0,167,161,.2);
+}
+
+.yycg .zhuti .left{
+    margin-left: 176px;
+    float: left;
+    width: 354px;
+}
+.yycg .zhuti .left li{
+    width: 100%;
+    height: 46px;
+    background: white;
+    margin: 0 0 32px;
+    line-height: 46px;
+    font-size: 16px;
+    color: #959595;
+    padding: 0 16px;
+}
+.yycg .zhuti .left li input{
+    width: 230px;
+    height: 90%;
+    color: #959595;
+    border: none;
+    padding-left: 5px;
+}
+.yycg .zhuti .right{
+    margin-right: 144px;
+    float: right;
+    width: 490px;
+}
+.yycg .zhuti .right .xuanxiang{
+    display: inline-block;
+    width: 112px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    color: #8f8f8f;
+    cursor: pointer;
+    background: white;
+}
+.yycg .zhuti .right .xuanxiang.cur{
+    background: #ff4618;
+    color: white;
+}
+.yycg .zhuti .right .box{
+    padding-top: 20px;
+    width: 100%;
+    height: 246px;
+    color: #8f8f8f;
+    background: white;
+    display: none;
+}
+.yycg .zhuti .right .box.cur{
+    display: block;
+}
+.yycg .zhuti .right .box .txt1{
+    display: block;
+    padding-left: 16px;
+    margin: 0 auto 20px;
+    width: 86%;
+    border: 1px solid #d6d6d6;
+    height: 42px;
+    line-height: 42px;
+}
+.yycg .zhuti .right .box .txt2{
+    display: block;
+    padding-left: 16px;
+    margin: 0 auto 20px;
+    width: 86%;
+    resize: none;
+    border: 1px solid #d6d6d6;
+    height: 142px;
+    line-height: 42px;
+}
+.yycg .zhuti .right p{
+    font-size: 14px;
+    color: #8f8f8f;
+    line-height: 44px;
+}
+.yycg .zhuti .right p span{
+    color: #ff4618;
+}
+.yycg .zhuti .tijiao{
+    display: block;
+    margin: 40px auto 0;
+    width: 296px;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    background: #ff4618;
+}
+
+}
+
+/*<!--以下是app端样式-->*/
+@media screen and (max-device-width:759px) {
+    /*<!--banner-->*/
+    .banner{ width: 100%; overflow: hidden; position: relative;}
+    /*<!--主体-->*/
+    /*园所简介*/
+    .ysjj{padding-top: 1rem;}
+    .ysjj h3{
+        position: relative;
+        font-size: 1.8rem;
+        color: #f28100;
+        font-weight: 500;
+        text-align: center;
+    }
+    .ysjj h3 span{
+        display: block;
+        position: relative;
+        top: -1.5rem;
+        font-size: 2rem;
+        text-transform: uppercase;
+        color: rgba(0,167,161,.2);
+    }
+
+    .ysjj .ysjjzhuti{
+
+    }
+    .ysjj .ysjjzhuti .left{
+        width: 94%;
+        margin: 0 auto;
+    }
+    .ysjj .ysjjzhuti .left img{
+        width: 100%;
+
+    }
+    .ysjj .ysjjzhuti .right{
+        width: 94%;
+        margin: 0 auto;
+    }
+    .ysjj .ysjjzhuti .right h5{
+        font-size: 1.4rem;
+        color: #59a9a8;
+    }
+    .ysjj .ysjjzhuti .right h5 span{
+        position: relative;
+        top: -0.8rem;
+        font-size: 1rem;
+        color: #d2d2d2;
+        text-transform: uppercase;
+    }
+    .ysjj .ysjjzhuti .right p{
+        font-size: 0.875rem;
+        color: #353535;
+        line-height: 1.68rem;
+        text-indent: 2em;
+    }
+    .ysjj .ysjjzhuti .right .ckxq{
+        display: none;
+    }
+
+    /*<!--电话-->*/
+    .tel{
+        padding-top: 1rem;
+        width: 100%;
+        text-align: center;
+        color: white;
+        background: #28b6ea;
+    }
+    .tel h4{
+        display: block;
+        font-family: icon;
+        font-size: 2.4rem;
+    }
+    .tel h5{
+        display: block;
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+    .tel span{
+        display: block;
+        padding-bottom: 1rem;
+        font-size: 1.125rem;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /*<!--入园须知-->*/
+    .ryxz{
+        width: 100%;
+        background: #ffc98c;
+    }
+    .ryxz .center{
+        position: relative;
+        height: 640px;
+    }
+    .ryxz .kuai{
+      display: none;
+    }
+    .ryxz .center .kuang{
+        position: relative;
+
+        top: 152px;
+        width:94%;
+        height: 27.5rem;
+        margin: 0 auto;
+        border: 2px solid #6a462b;
+        border-radius: 13px;
+        background: #ffc98c;
+    }
+    .ryxz .center .kuang h4{
+      display: none;
+    }
+    .ryxz .center .kuang .txt{
+        margin: 0 auto;
+         width: 94%;
+        color: #151515;
+    }
+    .ryxz .center .kuang .txt p{
+        font-size: 0.81rem;
+        line-height: 1.5rem;
+    }
+    .ryxz .center .kuang .txt ol{
+        margin-left: 0.68rem;
+        font-size: 0.81rem;
+        line-height: 1.5rem;
+
+    }
+    .ryxz .center .kuang .txt ol li{
+        position: relative;
+    }
+    .ryxz .center .kuang .txt ol li:before{
+      display: none;
+    }
+    .ryxz .ryxzzuo{
+        position: absolute;
+        top: -9.6rem;
+        left: 2rem;
+
+    }
+    .ryxz .ryxzzuo img{
+        width: 65%;
+    }
+    .ryxz .ryxzzuo h5{
+        position: absolute;
+        top: 5rem;
+        right: 8.6rem;
+        font-size: 1.68rem;
+        color: #f28100;
+    }
+    .ryxz .ryxzshang{
+      display: none;
+    }
+
+    /*<!--家园环境-->*/
+    .jyhj{padding-top: 1rem;}
+    .jyhj h3{
+        position: relative;
+        font-size: 1.8rem;
+        color: #f28100;
+        font-weight: 500;
+        text-align: center;
+    }
+    .jyhj h3 span{
+        display: block;
+        position: relative;
+        top: -1.5rem;
+        font-size: 2rem;
+        text-transform: uppercase;
+        color: rgba(0,167,161,.2);
+    }
+    .jyhj ul{
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -o-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-justify-content: space-around;
+        -moz-justify-content: space-around;
+        -ms-justify-content: space-around;
+        -o-justify-content: space-around;
+        justify-content: space-around;
+    }
+    .jyhj ul li{
+        margin-bottom: 0.5rem;
+        width: 48%;
+        height: 10.3rem;
+        overflow: hidden;
+    }
+    .jyhj ul li:hover .donghua{
+        transform: translateY(-12.6rem);
+        transition: all .5s;
+    }
+    .jyhj ul li img{
+        width: 100%;
+        height: 100%;
+    }
+    .jyhj ul li .donghua{
+        width: 100%;
+        height: 12.6rem;
+        background: rgba(0,0,0,.5);
+        padding-top: 3rem;
+    }
+    .jyhj ul li .donghua a{
+        display: block;
+        margin: 0 auto;
+        color: white;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .jyhj ul li .donghua a span{
+        font-family: icon;
+        font-size: 4rem;
+        color: #ff7700;
+    }
+
+    /*预约参观*/
+
+    .yycg{
+        padding-top: 1rem;
+        height: 52rem;
+        width: 100%;
+        background: #e8e8e8;
+    }
+    .yycg h3{
+        position: relative;
+        font-size: 1.8rem;
+        color: #f28100;
+        font-weight: 500;
+        text-align: center;
+    }
+    .yycg h3 span{
+        display: block;
+        position: relative;
+        top: -1.5rem;
+        font-size: 2rem;
+        text-transform: uppercase;
+        color: rgba(0,167,161,.2);
+    }
+
+    .yycg .zhuti .left{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .yycg .zhuti .left li{
+        width: 100%;
+        height: 46px;
+        background: white;
+        margin: 0 0 2rem;
+        line-height: 3.8rem;
+        font-size: 1rem;
+        color: #959595;
+        padding: 0 1rem;
+    }
+    .yycg .zhuti .left li input{
+        width: 14.375rem;
+
+        color: #959595;
+        border: none;
+        padding-left: 0.31rem;
+    }
+    .yycg .zhuti .right{
+        width: 94%;
+        margin: 0 auto;
+    }
+    .yycg .zhuti .right .xuanxiang{
+        display: inline-block;
+        width: 7rem;
+        height: 2.25rem;
+        line-height: 2.25rem;
+        text-align: center;
+        color: #8f8f8f;
+        cursor: pointer;
+        background: white;
+    }
+    .yycg .zhuti .right .xuanxiang.cur{
+        background: #ff4618;
+        color: white;
+    }
+    .yycg .zhuti .right .box{
+        padding-top: 1.25rem;
+        width: 100%;
+        height: 15.375rem;
+        color: #8f8f8f;
+        background: white;
+        display: none;
+    }
+    .yycg .zhuti .right .box.cur{
+        display: block;
+    }
+    .yycg .zhuti .right .box .txt1{
+        display: block;
+        padding-left: 1rem;
+        margin: 0 auto 1.25rem;
+        width: 86%;
+        border: 1px solid #d6d6d6;
+        height: 2.625rem;
+        line-height: 2.625rem;
+    }
+    .yycg .zhuti .right .box .txt2{
+        display: block;
+        padding-left: 1rem;
+        margin: 0 auto 1.25rem;
+        width: 86%;
+        resize: none;
+        border: 1px solid #d6d6d6;
+        height: 8.875rem;
+        line-height: 2.625rem;
+    }
+    .yycg .zhuti .right p{
+        font-size: 0.875rem;
+        color: #8f8f8f;
+        line-height: 2.75rem;
+    }
+    .yycg .zhuti .right p span{
+        color: #ff4618;
+        font-size: 0.8rem;
+    }
+    .yycg .zhuti .tijiao{
+        display: block;
+        margin: 0.375rem auto 0;
+        width: 18.5rem;
+        height: 2.5rem;
+        font-size: 1.125rem;
+        color: white;
+        border: none;
+        background: #ff4618;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

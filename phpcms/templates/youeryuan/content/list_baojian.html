@@ -1,0 +1,12 @@
+{pc:content action="lists" catid="$catid" moreinfo="1" num="20" order="id ASC"  page="$page"}
+{loop $data $r}
+
+<li>
+    <img src="{IMG_PATH}img/list_jygy/inoculation_child.png" alt="">
+    <div class="tubiaotxt">
+        <h5>{$r[title]}</h5>
+        <p>{$r[content]}</p>
+    </div>
+</li>
+{/loop}
+{/pc}

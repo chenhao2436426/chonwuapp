@@ -1,0 +1,24 @@
+
+<!--导航-->
+<div class="nav">
+	<img src="{IMG_PATH}img/index/top.png" alt="" class="toptu"/>
+	<div class="headertitle clear">
+		<div class="logo1"></div>
+		<div class="logo2"></div>
+
+	</div>
+	<div class="zhuti centers">
+		{pc:content action="category" catid="0" num="10" siteid="$siteid" order="listorder ASC"}
+		<ul class="clears">
+			<li {if empty($catid)}class="cur"{/if}><a href="{siteurl($siteid)}">首页<span>home</span></a></li>
+			{loop $data $r}
+			<li {if $r['catid']==$catid || $CATEGORYS[$CAT[parentid]][catid]==$r['catid']} class="cur" {/if}><a href="{$r[url]}">{$r[catname]}<span>{$r[catname_en]}</span></a></li>
+			{/loop}
+		</ul>
+		{/pc}
+		<div class="logo">
+			<img src="{IMG_PATH}img/index/logo.png" alt=""/>
+		</div>
+
+	</div>
+</div>

@@ -1,0 +1,351 @@
+
+/*<!--以下是pc端样式-->*/
+@media screen and (min-device-width: 760px) {
+.list_xwhdbanner{ width: 100%; overflow: hidden; position: relative;}
+
+/*主体*/
+
+/*行业新闻*/
+.xwhdzhuti{
+padding: 40px 0 160px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.xwhdzhuti .left{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-end;
+    -moz-align-items: flex-end;
+    -ms-align-items: flex-end;
+    -o-align-items: flex-end;
+    align-items: flex-end;
+    width: 240px;
+    height: 416px;
+    background: url("../../images/img/list_xwhd/news_nav.png") no-repeat center/100% 100%;
+}
+.xwhdzhuti .left .lefttop{
+    margin: 0 auto 32px;
+    width: 98%;
+    background: white;
+}
+
+.xwhdzhuti .left .lefttop li a{
+    color: #a5a5a5;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    display: block;
+    margin: 9px auto;
+}
+.xwhdzhuti .left .lefttop{
+    margin: 0 auto 32px;
+    width: 98%;
+    background: white;
+}
+
+.xwhdzhuti .left .lefttop li .cur{
+    color: white;
+    background: #3ea122;
+}
+
+
+
+
+.xwhdzhuti .right{
+    width: 918px;
+}
+.xwhdzhuti .right .newstop{
+    margin-top: 30px;
+}
+.xwhdzhuti .right .newstop h2{
+    padding: 0 32px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FF9E00;
+    margin-bottom: 10px;
+}
+.xwhdzhuti .right .newstop h2 .color{
+    color: #3EA122;
+}
+.xwhdzhuti .right .newstop h2 .yingwen{
+    font-size: 16px;
+    margin-left: 10px;
+    color: #B7B7B7;
+}
+.xwhdzhuti .right ul li{
+    width: 100%;
+    height: 130px;
+    padding: 30px 32px;
+    border-bottom: 1px dashed #D8D8D8;
+    display: flex;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+.xwhdzhuti .right ul li .shijian{
+    width: 74px;
+    height: 100%;
+    font-size: 18px;
+    line-height: 16px;
+    text-align: center;
+    color: #3EA122;
+}
+.xwhdzhuti .right ul li .shijian span{
+    font-size: 52px;
+    line-height: 64px;
+    color: #FE9B00;
+    font-weight: 700;
+}
+.xwhdzhuti .right ul li .xvxian{
+    width: 0;
+    height: 55px;
+    border-right: 1px dashed #3CA222;
+}
+.xwhdzhuti .right ul li .newtxt{
+    margin-right: 26px;
+    width: 718px;
+    height: 100%;
+}
+.xwhdzhuti .right ul li .newtxt h2{
+    font-size: 18px;
+    line-height: 18px;
+    color: #272727;
+    font-weight: normal;
+}
+.xwhdzhuti .right ul li .newtxt p{
+    margin-top: 10px;
+    line-height: 22px;
+    color: #636363;
+    font-size: 14px;
+}
+.xwhdzhuti .right .page{
+    margin-top: 57px;
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.xwhdzhuti .right .page a{
+    margin: 0 10px;
+    display: block;
+    width: 100px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 50%;
+}
+.xwhdzhuti .right .page span{
+    margin: 0 10px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+   background-color: green;
+}
+.xwhdzhuti .right .page a.cur{
+    background: #BCF072;
+}
+.xwhdzhuti .right .page a:first-child,.right .page a:last-child{
+    margin: 0 60px;
+    width: 66px;
+}
+}
+
+/*<!--以下是app端样式-->*/
+@media screen and (max-device-width:759px) {
+
+    .list_xwhdbanner{ width: 100%; overflow: hidden; position: relative;}
+
+    /*主体*/
+
+    /*行业新闻*/
+    .xwhdzhuti{
+        padding: 40px 0 160px 0;
+
+    }
+    .xwhdzhuti .left{
+        width: 94%;
+        margin: 0 auto;
+    }
+    .xwhdzhuti .left .lefttop{
+        width: 100%;
+
+    }
+    .xwhdzhuti .left .lefttop li{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .xwhdzhuti .left .lefttop li a{
+        color: #a5a5a5;
+        width: 100%;
+        height: 2.6rem;
+        text-align: center;
+        line-height: 2.6rem;
+        display: block;
+        margin: 0.56rem auto;
+    }
+
+
+    .xwhdzhuti .left .lefttop li .cur{
+        color: white;
+        background: #3ea122;
+    }
+
+
+    .xwhdzhuti .right{
+        width: 94%;
+        margin: 0 auto;
+    }
+
+    .xwhdzhuti .right .newstop{
+        margin-top: 1.875rem;
+    }
+    .xwhdzhuti .right .newstop h2{
+        padding: 0 2rem;
+        font-size: 1.25rem;
+        line-height: 1.25rem;
+        color: #FF9E00;
+        margin-bottom: 0.625rem;
+    }
+    .xwhdzhuti .right .newstop h2 .color{
+        color: #3EA122;
+    }
+    .xwhdzhuti .right .newstop h2 .yingwen{
+        font-size: 1rem;
+        margin-left: 0.625rem;
+        color: #B7B7B7;
+    }
+    .xwhdzhuti .right ul li{
+        width: 100%;
+        height: 8.125rem;
+        border-bottom: 1px dashed #D8D8D8;
+        display: flex;
+        align-items: center;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+    }
+    .xwhdzhuti .right ul li .shijian{
+        width: 4.625rem;
+        height: 100%;
+        font-size: 1rem;
+        line-height: 1rem;
+        text-align: center;
+        color: #3EA122;
+        margin-top: 2.5rem;
+    }
+    .xwhdzhuti .right ul li .shijian span{
+        font-size: 3.25rem;
+        line-height: 4rem;
+        color: #FE9B00;
+        font-weight: 700;
+    }
+    .xwhdzhuti .right ul li .xvxian{
+        width: 0;
+        height: 3.4rem;
+        border-right: 1px dashed #3CA222;
+    }
+    .xwhdzhuti .right ul li .newtxt{
+        width: 44rem;
+        height: 100%;
+        margin-left: 0.5rem;
+    }
+    .xwhdzhuti .right ul li .newtxt h2{
+        font-size: 1rem;
+        line-height: 1.125rem;
+        color: #272727;
+        font-weight: normal;
+        margin-top: 0.56rem;
+    }
+
+    .xwhdzhuti .right ul li .newtxt p{
+        margin-top: 0.625rem;
+        line-height: 1.25rem;
+        color: #636363;
+        font-size: 0.81rem;
+    }
+    .xwhdzhuti .right .page{
+        margin-top: 3.56rem;
+        width: 100%;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-justify-content: center;
+        justify-content: center;
+    }
+    .xwhdzhuti .right .page a{
+        margin: 0 0.625rem;
+        display: block;
+        width: 6.25rem;
+        height: 1.5rem;
+        line-height: 1.5rem;
+        text-align: center;
+        border-radius: 50%;
+    }
+    .xwhdzhuti .right .page span{
+        margin: 0 0.625rem;
+        display: block;
+        width: 1.5rem;
+        height: 1.5rem;
+        line-height: 1.5rem;
+        color: white;
+        text-align: center;
+        border-radius: 50%;
+        background-color: green;
+    }
+    .xwhdzhuti .right .page a.cur{
+        background: #BCF072;
+    }
+    .xwhdzhuti .right .page a:first-child,.right .page a:last-child{
+
+        width: 4.31rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
